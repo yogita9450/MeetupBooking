@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="3.1.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
@@ -24,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\DeveloperMeetup.Services\DeveloperMeetup.Services.csproj" />
+    <ProjectReference Include="..\DeveloperMeetup.Validations\DeveloperMeetup.Validations.csproj" />
   </ItemGroup>
 
 

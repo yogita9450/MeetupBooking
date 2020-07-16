@@ -17,6 +17,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using DeveloperMeetup.Services;
+using FluentValidation;
+using DeveloperMeetup.Validations;
 
 namespace DeveloperMeetup.BookingApi
 {
@@ -36,6 +38,7 @@ namespace DeveloperMeetup.BookingApi
             services.AddControllers();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IReservationService, ReservationService>();
+            services.AddScoped<IValidationService, ValidationService>();
             services.AddDbContext<DeveloperMeetupDBContext>(opt =>
             {
                 opt.UseSqlServer(Configuration["ConnectionString"]);
@@ -48,6 +51,8 @@ namespace DeveloperMeetup.BookingApi
             services.AddControllers();
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen();
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
+            //      .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<UserDtoValidator>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -80,7 +85,6 @@ namespace DeveloperMeetup.BookingApi
             {
                 endpoints.MapControllers();
             });
-
 
         }
     }

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\DeveloperMeetup.Services\DeveloperMeetup.Services.csproj" />
+    <ProjectReference Include="..\Core\DeveloperMeetupDomain\DeveloperMeetupDomain.csproj" />
+  </ItemGroup>
+
+</Project>

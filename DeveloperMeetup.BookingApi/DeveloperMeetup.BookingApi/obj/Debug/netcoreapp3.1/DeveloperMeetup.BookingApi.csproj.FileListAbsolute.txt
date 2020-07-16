@@ -592,8 +592,6 @@ C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\Dev
 C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.csprojAssemblyReference.cache
 C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\staticwebassets\DeveloperMeetup.BookingApi.StaticWebAssets.Manifest.cache
 C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\staticwebassets\DeveloperMeetup.BookingApi.StaticWebAssets.xml
-C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.RazorAssemblyInfo.cache
 C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.RazorAssemblyInfo.cs
 C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.AssemblyInfoInputs.cache
@@ -614,3 +612,8 @@ C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\Dev
 C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.csproj.CopyComplete
 C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.dll
 C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.pdb
+C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\bin\Debug\netcoreapp3.1\DeveloperMeetup.Validations.dll
+C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\bin\Debug\netcoreapp3.1\DeveloperMeetup.Validations.pdb
+C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Sanjay Shukla\source\repos\MeetupBooking\DeveloperMeetup.BookingApi\DeveloperMeetup.BookingApi\obj\Debug\netcoreapp3.1\DeveloperMeetup.BookingApi.MvcApplicationPartsAssemblyInfo.cache
