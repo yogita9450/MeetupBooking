@@ -32,6 +32,20 @@ namespace DeveloperMeetup.Data.Configurations
             //    x.ReservationId
             //});
 
+            // Seed data
+            modelBuilder.Entity<User>().HasData(
+            new User() { Id = 1, FirstName = "yogita", LastName = "mishra", UserId = "yo", Email = "y@gamil.com", Password = "123" , Phone="1234"});
+
+            modelBuilder.Entity<Events>().HasData(
+            new Events() {Id=1, EventId=1, EventStatus= true, MaxSeatAvailableforBooking=4, PricePerSession=10 });
+
+
+            modelBuilder.Entity<TotalSeats>().HasData(
+            new TotalSeats() {SeatId="A1", EventId= 1, Id=1, Deleted=false});
+            modelBuilder.Entity<TotalSeats>().HasData(
+            new TotalSeats() { SeatId = "A2", EventId = 1, Id = 2, Deleted = false });
+            modelBuilder.Entity<TotalSeats>().HasData(
+            new TotalSeats() { SeatId = "A3", EventId = 1, Id = 3, Deleted = false });
 
         }
 

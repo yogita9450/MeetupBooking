@@ -38,7 +38,7 @@ namespace DeveloperMeetup.BookingApi.Controllers
         }
 
         [HttpGet("GetUserDetails")]
-        public async Task<ActionResult<IEnumerable<SeatDto>>> GetUserById(long userId, CancellationToken cancellationToken)
+        public async Task<ActionResult<IEnumerable<UserDto>>> GetUserById(long userId, CancellationToken cancellationToken)
         {
             try
             {
