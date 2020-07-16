@@ -4,8 +4,8 @@ using System.Text;
 
 namespace DeveloperMeetupDomain.Interface
 {
-        public interface IBaseEntity
-        {
+    public interface IBaseEntity
+    {
         object Id { get; set; }
         DateTime CreatedDate { get; set; }
         DateTime ModifiedDate { get; set; }
@@ -13,9 +13,9 @@ namespace DeveloperMeetupDomain.Interface
         string ModifiedBy { get; set; }
     }
 
-        public interface IBaseEntity<T> : IBaseEntity
-        {
+    public interface IBaseEntity<T> : IBaseEntity
+    {
         new T Id { get; set; }
     }
-    }
+}
 
