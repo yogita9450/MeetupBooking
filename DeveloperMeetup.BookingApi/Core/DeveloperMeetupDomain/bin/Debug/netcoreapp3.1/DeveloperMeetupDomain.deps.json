@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DeveloperMeetupDomain/1.0.0": {
+        "runtime": {
+          "DeveloperMeetupDomain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeveloperMeetupDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
