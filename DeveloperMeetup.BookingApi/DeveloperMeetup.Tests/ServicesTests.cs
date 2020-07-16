@@ -20,7 +20,7 @@ using DeveloperMeetupDomain.DTOs;
 
 namespace DeveloperMeetup.Tests
 {
-    public class DBContextTests
+    public class ServicesTests
     {
         private CancellationToken cancellationToken;
 
